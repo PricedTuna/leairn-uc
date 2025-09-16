@@ -1,0 +1,12 @@
+' UC1 - Gestión de cuenta
+rectangle "Gestión de cuenta" {
+  usecase "Iniciar sesión"        as UC1_1
+  usecase "Registrar cuenta"      as UC1_2
+  usecase "Cambiar contraseña"    as UC1_3
+  usecase "Convertirse en autor"  as UC1_4
+}
+
+Usuario --> UC1_1
+Usuario --> UC1_2
+Usuario --> UC1_3
+Usuario --> UC1_4

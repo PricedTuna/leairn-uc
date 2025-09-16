@@ -1,0 +1,126 @@
+# General OS files
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.nfs*
+
+# Archives and backups
+*.bak
+*.tmp
+*.temp
+*.swp
+*.swo
+*.orig
+*.old
+*.log
+*.lock
+
+# Node/npm (just in case)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Python (just in case)
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pytest_cache/
+.venv/
+venv/
+
+# Java / JVM (just in case)
+.target/
+target/
+build/
+out/
+.gradle/
+.classpath
+.project
+.settings/
+*.iml
+*.ipr
+*.iws
+
+# Dotnet (just in case)
+bin/
+obj/
+
+# Rust (just in case)
+target/
+
+# Go (just in case)
+**/*.exe
+**/*.test
+coverage.out
+
+# Logs and reports
+logs/
+*.log
+*.tsbuildinfo
+
+# Editors / IDEs
+# JetBrains IDEs (IntelliJ, WebStorm, PyCharm, etc.)
+.idea/
+# VS Code
+.vscode/
+.history/
+.code-workspace
+# Eclipse
+.project
+.classpath
+.settings/
+# NetBeans
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+# Vim
+.swap/
+Session.vim
+.tagbar*
+
+# Containers
+.docker/
+Dockerfile.local
+
+# PlantUML and diagram exports (keep sources *.puml tracked)
+# If you export images locally and don't want them committed, uncomment the following lines:
+# *.png
+# *.svg
+# *.pdf
+# PlantUML diagram cache
+.umlcache/
+
+# Misc
+coverage/
+.tmp/
+.temp/
+.cache/
+.eslintcache
+.parcel-cache/
+.next/
+.sass-cache/
+.rpt2_cache/
+.happypack/
+.nyc_output/

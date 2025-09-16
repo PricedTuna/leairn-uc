@@ -1,0 +1,18 @@
+@startuml
+!theme mars
+left to right direction
+
+' Actores
+!include actors.puml
+
+' Notas generales
+!include notes.puml
+
+' Paquetes / Casos de uso
+!include uc1_account.puml
+!include uc2_ai.puml
+!include uc3_study.puml
+!include uc4_market.puml
+!include uc5_products.puml
+
+@enduml

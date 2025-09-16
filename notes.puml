@@ -1,0 +1,4 @@
+' Notes module
+note "Imagen opcional" as OptionalImage_Note
+note "Necesita escribir una razón" as Razon_Note
+note "Creatividad, exactitud, temas de interes, nivel de comprension, descripción completa detallada" as IAConfigurations_Note

@@ -1,0 +1,14 @@
+' UC3 - Estudio
+rectangle "Estudio" {
+  usecase "Agregar tarjeta"   as UC3_1
+  usecase "Editar tarjeta"    as UC3_2
+  usecase "Eliminar tarjeta"  as UC3_3
+  usecase "Estudiar tarjeta"  as UC3_4
+}
+
+UC3_1 .. OptionalImage_Note
+
+Usuario --> UC3_1
+Usuario --> UC3_2
+Usuario --> UC3_3
+Usuario --> UC3_4

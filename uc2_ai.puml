@@ -1,0 +1,15 @@
+' UC2 - Inteligencia artificial
+rectangle "Inteligencia artificial" {
+  usecase "Enviar mensaje"                      as UC2_1
+  usecase "Cambiar título de conversación"      as UC2_2
+  usecase "Cambiar de conversación"             as UC2_3
+  usecase "Agregar tarjeta desde conversación"  as UC2_4
+  usecase "Configurar"                          as UC2_5
+}
+
+UC2_5 .. IAConfigurations_Note
+
+Usuario --> UC2_1
+Usuario --> UC2_2
+Usuario --> UC2_3
+Usuario --> UC2_4

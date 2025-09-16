@@ -1,0 +1,4 @@
+' Actors module
+actor Usuario
+actor Administrador
+actor Autor
