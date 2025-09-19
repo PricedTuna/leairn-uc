@@ -5,6 +5,8 @@ rectangle "Mercado" {
   usecase "Aprobar producto"    as UC4_3
   usecase "Rechazar producto"   as UC4_4
   usecase "Pagar autor"         as UC4_5
+
+  !include uc5_products.puml
 }
 
 UC4_4 .. Razon_Note

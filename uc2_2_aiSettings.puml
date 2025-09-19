@@ -1,0 +1,10 @@
+' UC2_1 - Configuraciones de Inteligencia artificial
+rectangle "Configuraciones" {
+  usecase "Gestionar configuraciones"   as UC2_1_1
+  usecase "Cambiar de configuración"    as UC2_1_2
+}
+
+UC2_1_1 .. IAConfigurations_Note
+
+Usuario --> UC2_1_1
+Usuario --> UC2_1_2

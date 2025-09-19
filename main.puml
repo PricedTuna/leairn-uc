@@ -10,9 +10,13 @@ left to right direction
 
 ' Paquetes / Casos de uso
 !include uc1_account.puml
-!include uc2_ai.puml
+
+rectangle "ai" {
+    !include uc2_1aiChat.puml
+    !include uc2_2_aiSettings.puml
+}
+
 !include uc3_study.puml
 !include uc4_market.puml
-!include uc5_products.puml
 
 @enduml

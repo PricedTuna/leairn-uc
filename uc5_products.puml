@@ -1,13 +1,11 @@
 ' UC5 - Productos
 rectangle "Productos" {
-  usecase "Privatizar producto"   as UC5_1
-  usecase "Asignar producto"      as UC5_2
-  usecase "Deshabilitar producto" as UC5_3
+  usecase "Asignar producto"      as UC5_1
+  usecase "Gestionar visibilidad" as UC5_2
 }
 
-UC5_3 .. Razon_Note
+UC5_2 .. Razon_Note
 
 Autor         --> UC5_1
 Autor         --> UC5_2
-Autor         --> UC5_3
-Administrador --> UC5_3
+Administrador --> UC5_2
