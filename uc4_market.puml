@@ -1,19 +1,8 @@
 ' UC4 - Mercado
 rectangle "Mercado" {
   usecase "Publicar producto"   as UC4_1
-  usecase "Comprar producto"    as UC4_2
-  usecase "Aprobar producto"    as UC4_3
-  usecase "Rechazar producto"   as UC4_4
-  usecase "Pagar autor"         as UC4_5
-
-  !include uc5_products.puml
+  usecase "Obtener producto"    as UC4_2
 }
-
-UC4_4 .. Razon_Note
-
-UC4_2 .u.> UC4_5 : <<extend>>
 
 Autor         --> UC4_1
 Usuario       --> UC4_2
-Administrador --> UC4_3
-Administrador --> UC4_4
